@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/libs/fancybox.css">
+    <link rel="stylesheet" href="assets/css/libs/nouislider.min.css">
+    <link rel="stylesheet" href="assets/css/app.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-top">
+        <div class="container d-flex flex-wrap justify-between">
+          <div class="header-top__logo"><a class="d-flex align-center justify-center" href="#">Logo</a></div>
+          <div class="header-top__nav d-flex flex-wrap">
+            <div class="header-top__nav-search">
+              <form>
+                <div class="form-wrap d-flex">
+                  <div class="form-wrap__inner d-flex">
+                    <input type="hidden" name="post_type" value="casinos">
+                    <div class="form-wrap__type">
+                      <label class="d-flex align-center justify-center" for="search">
+                        <div class="label-title">Search for casinos</div><span class="d-flex justify-center align-center">
+                          <svg class="icon icon-right-arrow icon-fill">
+                            <use xlink:href="assets/symbol/svg/sprite.symbol.svg#right-arrow"></use>
+                          </svg></span>
+                      </label>
+                      <ul>
+                        <li class="active" data-type="casinos">Search for casinos</li>
+                        <li data-type="games">Search for games</li>
+                        <li data-type="bonuses">Search for bonuses</li>
+                      </ul>
+                    </div>
+                    <input id="search" name="s">
+                  </div>
+                  <button class="d-flex align-center justify-center" type="submit">
+                    <svg class="icon icon-search icon-stroke icon-20">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#search"></use>
+                    </svg>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="header-top__nav-auth d-flex"><a class="text-font-secondary link__popup" href="#" data-src="#login">Login</a><a class="text-font-secondary link__popup" href="#" data-src="#sign">Sign up</a></div>
+            <button class="btn-burger" type="button"><span class="btn-burger__line"></span><span class="btn-burger__line"></span><span class="btn-burger__line"></span></button>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="container d-flex justify-between column-md">
+          <nav class="menu-primary">
+            <ul class="d-flex">
+              <li class="current-menu-item"><a class="d-flex align-center" href="/">
+                  <div class="menu-item__icon menu-item__icon-home">
+                    <svg class="icon icon-house icon-fill">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#house"></use>
+                    </svg>
+                  </div>Home</a></li>
+              <li class="dropdowns"><a class="d-flex align-center" href="casinos.html" data-children="drop-1">
+                  <div class="menu-item__icon">
+                    <svg class="icon icon-casino-2 icon-fill">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#casino-2"></use>
+                    </svg>
+                  </div>Online casinos</a></li>
+              <li class="dropdowns"><a class="d-flex align-center" href="games.html" data-children="drop-2">
+                  <div class="menu-item__icon">
+                    <svg class="icon icon-games icon-fill">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#games"></use>
+                    </svg>
+                  </div>Games</a></li>
+              <li class="dropdowns"><a class="d-flex align-center" href="bonuses.html" data-children="drop-3">
+                  <div class="menu-item__icon menu-item__icon-bonuses">
+                    <svg class="icon icon-giftbox icon-fill">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#giftbox"></use>
+                    </svg>
+                  </div>Bobuses</a></li>
+              <li><a class="d-flex align-center" href="reviews.html">
+                  <div class="menu-item__icon">
+                    <svg class="icon icon-star icon-fill">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#star"></use>
+                    </svg>
+                  </div>Reviews</a></li>
+              <li><a class="d-flex align-center" href="news.html">
+                  <div class="menu-item__icon menu-item__icon-news">
+                    <svg class="icon icon-newspaper icon-fill">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#newspaper"></use>
+                    </svg>
+                  </div>News</a></li>
+            </ul>
+          </nav>
+          <div class="header__lang">
+            <button class="d-flex align-center">
+              <svg class="icon icon-language icon-stroke icon-20">
+                <use xlink:href="assets/symbol/svg/sprite.symbol.svg#language"></use>
+              </svg><span>ENG</span>
+            </button>
+            <ul>
+              <li><a class="d-flex align-center" href="#">
+                  <div class="icon-lang ratio" data-lang-name="ua"></div>Українська</a></li>
+              <li><a class="d-flex align-center" href="#">
+                  <div class="icon-lang ratio" data-lang-name="cz"></div>Čeština</a></li>
+              <li><a class="d-flex align-center" href="#">
+                  <div class="icon-lang ratio" data-lang-name="dk"></div>Dansk</a></li>
+              <li><a class="d-flex align-center" href="#">
+                  <div class="icon-lang ratio" data-lang-name="de"></div>Deutsch</a></li>
+              <li><a class="d-flex align-center" href="#">
+                  <div class="icon-lang ratio" data-lang-name="gb"></div>English</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main-wrapper">
+      <div class="home">
+        <div class="container">
+          <div class="home-about d-flex flex-column justify-center">
+            <div class="home-about__wrap">
+              <div class="row">
+                <div class="col-6-xl col-12-md d-flex align-center">
+                  <div class="home-about__description">
+                    <h1>Lorem ipsum dolor sit amet</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis facere inventore accusantium et vero quae vel quam quisquam repudiandae maxime tenetur itaque adipisci officiis numquam natus pariatur, illo molestiae. Obcaecati!</p>
+                  </div>
+                </div>
+                <div class="col-6-xl col-12-md d-flex justify-center align-center home-about__numbers-wrap">
+                  <div class="home-about__numbers d-flex flex-wrap justify-center align-center"><a class="home-about__numbers-item d-flex align-center flex-column" href="casinos.html">
+                      <div class="home-about__numbers-item-header d-flex align-center flex-column">
+                        <svg class="icon icon-casino-2 icon-fill">
+                          <use xlink:href="assets/symbol/svg/sprite.symbol.svg#casino-2"></use>
+                        </svg><span>Casinos</span>
+                      </div>
+                      <div class="home-about__numbers-item-footer"><span class="purecounter" data-purecounter-start="0" data-purecounter-end="568">568</span></div></a><a class="home-about__numbers-item d-flex align-center flex-column" href="reviews.html">
+                      <div class="home-about__numbers-item-header d-flex align-center flex-column">
+                        <svg class="icon icon-star icon-fill">
+                          <use xlink:href="assets/symbol/svg/sprite.symbol.svg#star"></use>
+                        </svg><span>Reviews</span>
+                      </div>
+                      <div class="home-about__numbers-item-footer"><span class="purecounter" data-purecounter-start="0" data-purecounter-end="12356">12356</span></div></a><a class="home-about__numbers-item d-flex align-center flex-column" href="bonuses.html">
+                      <div class="home-about__numbers-item-header d-flex align-center flex-column">
+                        <svg class="icon icon-giftbox icon-fill">
+                          <use xlink:href="assets/symbol/svg/sprite.symbol.svg#giftbox"></use>
+                        </svg><span>Bonuses</span>
+                      </div>
+                      <div class="home-about__numbers-item-footer"><span class="purecounter" data-purecounter-start="0" data-purecounter-end="1187">1187</span></div></a><a class="home-about__numbers-item d-flex align-center flex-column" href="games.html">
+                      <div class="home-about__numbers-item-header d-flex align-center flex-column">
+                        <svg class="icon icon-games icon-fill">
+                          <use xlink:href="assets/symbol/svg/sprite.symbol.svg#games"></use>
+                        </svg><span>Games</span>
+                      </div>
+                      <div class="home-about__numbers-item-footer"><span class="purecounter" data-purecounter-start="0" data-purecounter-end="788">788</span></div></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="home-wrapper">
+            <div class="home-csn">
+              <div class="h2">Online casinos</div>
+              <div class="title d-flex align-center justify-between">
+                <div class="slider-tabs d-flex align-center">
+                  <button class="active" type="button">Best casinos</button>
+                  <button type="button">New casinos</button>
+                </div>
+                <div class="slider-nav d-flex justify-end">
+                  <button class="d-flex justify-center align-center" id="cPrev" type="button">
+                    <svg class="icon icon-left-arrow icon-20">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#left-arrow"></use>
+                    </svg>
+                  </button>
+                  <button class="d-flex justify-center align-center" id="cNext" type="button">
+                    <svg class="icon icon-right-arrow-sl icon-20">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#right-arrow-sl"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="sliders">
+                <div class="swiper" data-countTabl="3" data-count="4" data-prev="cPrev" data-next="cNext">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="card-csns bg-w">
+                        <div class="card-csns__item d-flex flex-column">
+                          <div class="card-csns__item-header">
+                            <div class="ratio"><img src="assets/images/src/logo-riobet.svg" alt=""></div>
+                            <div class="card-csns__item-rating d-flex align-center justify-center flex-column">
+                              <div class="rating-count"><span>5</span>/5</div>
+                              <div class="rating rating-average"><span style="width: 100%"></span></div>
+                            </div>
+                          </div>
+                          <div class="card-csns__item-footer"><a class="btn btn-primary" href="#">Read more</a><a class="btn btn-secondary" href="#">Visit casino</a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="card-csns bg-w">
+                        <div class="card-csns__item d-flex flex-column">
+                          <div class="card-csns__item-header">
+                            <div class="ratio"><img src="assets/images/src/vavada_logo.svg" alt=""></div>
+                            <div class="card-csns__item-rating d-flex align-center justify-center flex-column">
+                              <div class="rating-count"><span>5</span>/5</div>
+                              <div class="rating rating-average"><span style="width: 100%"></span></div>
+                            </div>
+                          </div>
+                          <div class="card-csns__item-footer"><a class="btn btn-primary" href="#">Read more</a><a class="btn btn-secondary" href="#">Visit casino</a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="card-csns bg-w">
+                        <div class="card-csns__item d-flex flex-column">
+                          <div class="card-csns__item-header">
+                            <div class="ratio"><img src="assets/images/src/junglebet.svg" alt=""></div>
+                            <div class="card-csns__item-rating d-flex align-center justify-center flex-column">
+                              <div class="rating-count"><span>5</span>/5</div>
+                              <div class="rating rating-average"><span style="width: 100%"></span></div>
+                            </div>
+                          </div>
+                          <div class="card-csns__item-footer"><a class="btn btn-primary" href="#">Read more</a><a class="btn btn-secondary" href="#">Visit casino</a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="card-csns bg-w">
+                        <div class="card-csns__item d-flex flex-column">
+                          <div class="card-csns__item-header">
+                            <div class="ratio"><img src="assets/images/src/monro.svg" alt=""></div>
+                            <div class="card-csns__item-rating d-flex align-center justify-center flex-column">
+                              <div class="rating-count"><span>5</span>/5</div>
+                              <div class="rating rating-average"><span style="width: 100%"></span></div>
+                            </div>
+                          </div>
+                          <div class="card-csns__item-footer"><a class="btn btn-primary" href="#">Read more</a><a class="btn btn-secondary" href="#">Visit casino</a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="card-csns bg-w">
+                        <div class="card-csns__item d-flex flex-column">
+                          <div class="card-csns__item-header">
+                            <div class="ratio"><img src="assets/images/src/monro.svg" alt=""></div>
+                            <div class="card-csns__item-rating d-flex align-center justify-center flex-column">
+                              <div class="rating-count"><span>5</span>/5</div>
+                              <div class="rating rating-average"><span style="width: 100%"></span></div>
+                            </div>
+                          </div>
+                          <div class="card-csns__item-footer"><a class="btn btn-primary" href="#">Read more</a><a class="btn btn-secondary" href="#">Visit casino</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="home-blocks__footer d-flex justify-center"><a class="btn btn-primary" href="casinos.html">All casinos</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="home-bonuses">
+          <div class="home-bonuses__wrap">
+            <div class="container">
+              <div class="h2">Bonuses</div>
+              <div class="row">
+                <div class="col-4-xl col-6-lg col-12-sm"><a class="csn-right__blocks-item d-flex" href="#">
+                    <div class="csn-right__blocks-item-img"><img src="assets/images/src/logo-riobet.svg" alt=""></div>
+                    <div class="csn-right__blocks-item-text">
+                      <div class="text-bold d-flex align-center">Get 100% up to $300 + 20 Free Spins</div>
+                      <p>RioBet casino</p>
+                    </div></a></div>
+                <div class="col-4-xl col-6-lg col-12-sm"><a class="csn-right__blocks-item d-flex" href="#">
+                    <div class="csn-right__blocks-item-img"><img src="assets/images/src/vavada_logo.svg" alt=""></div>
+                    <div class="csn-right__blocks-item-text">
+                      <div class="text-bold d-flex align-center">Get 100% up to $300 + 20 Free Spins</div>
+                      <p>Vavada casino</p>
+                    </div></a></div>
+                <div class="col-4-xl col-6-lg col-12-sm"><a class="csn-right__blocks-item d-flex" href="#">
+                    <div class="csn-right__blocks-item-img"><img src="assets/images/src/junglebet.svg" alt=""></div>
+                    <div class="csn-right__blocks-item-text">
+                      <div class="text-bold d-flex align-center">Get 100% up to $300 + 20 Free Spins</div>
+                      <p>Janglebet casino</p>
+                    </div></a></div>
+                <div class="col-4-xl col-6-lg col-12-sm"><a class="csn-right__blocks-item d-flex" href="#">
+                    <div class="csn-right__blocks-item-img"><img src="assets/images/src/monro.svg" alt=""></div>
+                    <div class="csn-right__blocks-item-text">
+                      <div class="text-bold d-flex align-center">Get 100% up to $300 + 20 Free Spins</div>
+                      <p>Monro casino</p>
+                    </div></a></div>
+                <div class="col-4-xl col-6-lg col-12-sm"><a class="csn-right__blocks-item d-flex" href="#">
+                    <div class="csn-right__blocks-item-img"><img src="assets/images/src/logo-riobet.svg" alt=""></div>
+                    <div class="csn-right__blocks-item-text">
+                      <div class="text-bold d-flex align-center">Get 100% up to $300 + 20 Free Spins</div>
+                      <p>RioBet casino</p>
+                    </div></a></div>
+                <div class="col-4-xl col-6-lg col-12-sm"><a class="csn-right__blocks-item d-flex" href="#">
+                    <div class="csn-right__blocks-item-img"><img src="assets/images/src/vavada_logo.svg" alt=""></div>
+                    <div class="csn-right__blocks-item-text">
+                      <div class="text-bold d-flex align-center">Get 100% up to $300 + 20 Free Spins</div>
+                      <p>Vavada casino</p>
+                    </div></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="home-blocks__footer d-flex justify-center"><a class="btn btn-primary" href="casinos.html">All bonuses</a></div>
+        </div>
+        <div class="home-wrapper">
+          <div class="home-games">
+            <div class="container">
+              <div class="h2">Games</div>
+              <div class="home-games__category sliders">
+                <button class="d-flex justify-center align-center home-games__category-btn home-games__category-btn-prev" id="gPrev" type="button">
+                  <svg class="icon icon-left-arrow icon-20">
+                    <use xlink:href="assets/symbol/svg/sprite.symbol.svg#left-arrow"></use>
+                  </svg>
+                </button>
+                <button class="d-flex justify-center align-center home-games__category-btn home-games__category-btn-next" id="gNext" type="button">
+                  <svg class="icon icon-right-arrow-sl icon-20">
+                    <use xlink:href="assets/symbol/svg/sprite.symbol.svg#right-arrow-sl"></use>
+                  </svg>
+                </button>
+                <div class="swiper" data-count="4" data-counttabl="3" data-prev="gPrev" data-next="gNext">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a class="card-games__category d-flex justify-center align-center" href="#">
+                        <svg class="icon icon-slots ">
+                          <use xlink:href="assets/symbol/svg/sprite.symbol.svg#slots"></use>
+                        </svg><span>Slots</span></a></div>
+                    <div class="swiper-slide"><a class="card-games__category d-flex justify-center align-center" href="#">
+                        <svg class="icon icon-roulette ">
+                          <use xlink:href="assets/symbol/svg/sprite.symbol.svg#roulette"></use>
+                        </svg><span>Roulette</span></a></div>
+                    <div class="swiper-slide"><a class="card-games__category d-flex justify-center align-center" href="#">
+                        <svg class="icon icon-blackjack ">
+                          <use xlink:href="assets/symbol/svg/sprite.symbol.svg#blackjack"></use>
+                        </svg><span>Blackjack</span></a></div>
+                    <div class="swiper-slide"><a class="card-games__category d-flex justify-center align-center" href="#">
+                        <svg class="icon icon-video-poker ">
+                          <use xlink:href="assets/symbol/svg/sprite.symbol.svg#video-poker"></use>
+                        </svg><span>Video poker</span></a></div>
+                    <div class="swiper-slide"><a class="card-games__category d-flex justify-center align-center" href="#">
+                        <svg class="icon icon-craps ">
+                          <use xlink:href="assets/symbol/svg/sprite.symbol.svg#craps"></use>
+                        </svg><span>Craps</span></a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3-xl col-6-lg col-12-sm mb-20">
+                  <div class="card-game bg-w">
+                    <div class="card-game__header"><a class="ratio ratio-16x9" href="game-single.html"><img src="assets/images/src/games/kraken-2.png" alt=""></a></div>
+                    <div class="card-game__title"><a class="text-font-secondary text-bold" href="game-single.html">Release the Kraken</a></div>
+                    <div class="card-game__wrapper">
+                      <div class="card-game__wrapper-header">
+                        <div class="ratio ratio-16x9"><img src="assets/images/src/games/kraken-2.png" alt=""></div>
+                      </div>
+                      <div class="card-game__wrapper-footer"><a class="btn btn-primary" href="game-single.html">Play for free</a><a class="btn btn-secondary" href="game-single.html#related">Play for money</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3-xl col-6-lg col-12-sm mb-20">
+                  <div class="card-game bg-w">
+                    <div class="card-game__header"><a class="ratio ratio-16x9" href="game-single.html"><img src="assets/images/src/games/primat.jpg" alt=""></a></div>
+                    <div class="card-game__title"><a href="game-single.html">Primate King</a></div>
+                    <div class="card-game__wrapper">
+                      <div class="card-game__wrapper-header">
+                        <div class="ratio ratio-16x9"><img src="assets/images/src/games/primat.jpg" alt=""></div>
+                      </div>
+                      <div class="card-game__wrapper-footer"><a class="btn btn-primary" href="game-single.html">Play for free</a><a class="btn btn-secondary" href="game-single.html">Play for money</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3-xl col-6-lg col-12-sm mb-20">
+                  <div class="card-game bg-w">
+                    <div class="card-game__header"><a class="ratio ratio-16x9" href="game-single.html"><img src="assets/images/src/games/bonanza.jpg" alt=""></a></div>
+                    <div class="card-game__title"><a href="game-single.html">Gemz Bonanza</a></div>
+                    <div class="card-game__wrapper">
+                      <div class="card-game__wrapper-header">
+                        <div class="ratio ratio-16x9"><img src="assets/images/src/games/bonanza.jpg" alt=""></div>
+                      </div>
+                      <div class="card-game__wrapper-footer"><a class="btn btn-primary" href="game-single.html">Play for free</a><a class="btn btn-secondary" href="game-single.html">Play for money</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3-xl col-6-lg col-12-sm mb-20">
+                  <div class="card-game bg-w">
+                    <div class="card-game__header"><a class="ratio ratio-16x9" href="game-single.html"><img src="assets/images/src/games/kraken-2.png" alt=""></a></div>
+                    <div class="card-game__title"><a class="text-font-secondary text-bold" href="game-single.html">Release the Kraken</a></div>
+                    <div class="card-game__wrapper">
+                      <div class="card-game__wrapper-header">
+                        <div class="ratio ratio-16x9"><img src="assets/images/src/games/kraken-2.png" alt=""></div>
+                      </div>
+                      <div class="card-game__wrapper-footer"><a class="btn btn-primary" href="game-single.html">Play for free</a><a class="btn btn-secondary" href="game-single.html#related">Play for money</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3-xl col-6-lg col-12-sm mb-20">
+                  <div class="card-game bg-w">
+                    <div class="card-game__header"><a class="ratio ratio-16x9" href="game-single.html"><img src="assets/images/src/games/kraken-2.png" alt=""></a></div>
+                    <div class="card-game__title"><a class="text-font-secondary text-bold" href="game-single.html">Release the Kraken</a></div>
+                    <div class="card-game__wrapper">
+                      <div class="card-game__wrapper-header">
+                        <div class="ratio ratio-16x9"><img src="assets/images/src/games/kraken-2.png" alt=""></div>
+                      </div>
+                      <div class="card-game__wrapper-footer"><a class="btn btn-primary" href="game-single.html">Play for free</a><a class="btn btn-secondary" href="game-single.html#related">Play for money</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3-xl col-6-lg col-12-sm mb-20">
+                  <div class="card-game bg-w">
+                    <div class="card-game__header"><a class="ratio ratio-16x9" href="game-single.html"><img src="assets/images/src/games/primat.jpg" alt=""></a></div>
+                    <div class="card-game__title"><a href="game-single.html">Primate King</a></div>
+                    <div class="card-game__wrapper">
+                      <div class="card-game__wrapper-header">
+                        <div class="ratio ratio-16x9"><img src="assets/images/src/games/primat.jpg" alt=""></div>
+                      </div>
+                      <div class="card-game__wrapper-footer"><a class="btn btn-primary" href="game-single.html">Play for free</a><a class="btn btn-secondary" href="game-single.html">Play for money</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3-xl col-6-lg col-12-sm mb-20">
+                  <div class="card-game bg-w">
+                    <div class="card-game__header"><a class="ratio ratio-16x9" href="game-single.html"><img src="assets/images/src/games/bonanza.jpg" alt=""></a></div>
+                    <div class="card-game__title"><a href="game-single.html">Gemz Bonanza</a></div>
+                    <div class="card-game__wrapper">
+                      <div class="card-game__wrapper-header">
+                        <div class="ratio ratio-16x9"><img src="assets/images/src/games/bonanza.jpg" alt=""></div>
+                      </div>
+                      <div class="card-game__wrapper-footer"><a class="btn btn-primary" href="game-single.html">Play for free</a><a class="btn btn-secondary" href="game-single.html">Play for money</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3-xl col-6-lg col-12-sm mb-20">
+                  <div class="card-game bg-w">
+                    <div class="card-game__header"><a class="ratio ratio-16x9" href="game-single.html"><img src="assets/images/src/games/kraken-2.png" alt=""></a></div>
+                    <div class="card-game__title"><a class="text-font-secondary text-bold" href="game-single.html">Release the Kraken</a></div>
+                    <div class="card-game__wrapper">
+                      <div class="card-game__wrapper-header">
+                        <div class="ratio ratio-16x9"><img src="assets/images/src/games/kraken-2.png" alt=""></div>
+                      </div>
+                      <div class="card-game__wrapper-footer"><a class="btn btn-primary" href="game-single.html">Play for free</a><a class="btn btn-secondary" href="game-single.html#related">Play for money</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="home-blocks__footer d-flex justify-center"><a class="btn btn-primary" href="games.html">All games</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="home-article">
+          <div class="section bg-w">
+            <div class="container">
+              <h2 class="mb-20">Seo text</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod dolor quibusdam molestias mollitia veniam! Iste at expedita optio numquam repudiandae dolor fuga provident unde, accusantium dolore doloribus, laborum minima voluptatem?</p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum vitae quia voluptatum deleniti cupiditate nesciunt atque obcaecati quis! Maxime, accusamus optio. Ut illo nihil beatae repellendus sunt quas alias ipsa.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, voluptates minima dolorum nostrum, veritatis quisquam facilis perferendis soluta reiciendis provident doloremque quibusdam ducimus suscipit sed placeat quia, deleniti ipsa est.</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus fugit tempora, eveniet nesciunt explicabo expedita non, deleniti reprehenderit eum suscipit iusto quo repellat sunt, odio ullam esse animi laudantium quod?</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et rerum ducimus error omnis, pariatur vel, eaque quae, dolor maxime sit explicabo! Fuga accusamus commodi ducimus eum debitis soluta sunt porro.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="section">
+            <div class="container">
+              <h2 class="mb-20">FAQ</h2>
+              <div class="accordion">
+                <div class="accordion__item faq-item bg-w">
+                  <div class="accordion__title faq-title d-flex justify-between align-center">
+                    <div class="title">Lorem, ipsum dolor sit amet consectetur adipisicing elit</div>
+                    <div class="accordion__item-icon"><span>
+                        <svg class="icon icon-minus ">
+                          <use xlink:href="assets/symbol/svg/sprite.symbol.svg#minus"></use>
+                        </svg>
+                        <svg class="icon icon-minus minus-2">
+                          <use xlink:href="assets/symbol/svg/sprite.symbol.svg#minus"></use>
+                        </svg></span></div>
+                  </div>
+                  <div class="accordion__wrap faq-wrap">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat.</p>
+                  </div>
+                </div>
+                <div class="accordion__item faq-item bg-w">
+                  <div class="accordion__title faq-title d-flex justify-between align-center">
+                    <div class="title">Lorem, ipsum dolor sit amet consectetur adipisicing elit</div>
+                    <div class="accordion__item-icon"><span>
+                        <svg class="icon icon-minus ">
+                          <use xlink:href="assets/symbol/svg/sprite.symbol.svg#minus"></use>
+                        </svg>
+                        <svg class="icon icon-minus minus-2">
+                          <use xlink:href="assets/symbol/svg/sprite.symbol.svg#minus"></use>
+                        </svg></span></div>
+                  </div>
+                  <div class="accordion__wrap faq-wrap">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat.</p>
+                  </div>
+                </div>
+                <div class="accordion__item faq-item bg-w">
+                  <div class="accordion__title faq-title d-flex justify-between align-center">
+                    <div class="title">Lorem, ipsum dolor sit amet consectetur adipisicing elit</div>
+                    <div class="accordion__item-icon"><span>
+                        <svg class="icon icon-minus ">
+                          <use xlink:href="assets/symbol/svg/sprite.symbol.svg#minus"></use>
+                        </svg>
+                        <svg class="icon icon-minus minus-2">
+                          <use xlink:href="assets/symbol/svg/sprite.symbol.svg#minus"></use>
+                        </svg></span></div>
+                  </div>
+                  <div class="accordion__wrap faq-wrap">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat.</p>
+                  </div>
+                </div>
+                <div class="accordion__item faq-item bg-w">
+                  <div class="accordion__title faq-title d-flex justify-between align-center">
+                    <div class="title">Lorem, ipsum dolor sit amet consectetur adipisicing elit</div>
+                    <div class="accordion__item-icon"><span>
+                        <svg class="icon icon-minus ">
+                          <use xlink:href="assets/symbol/svg/sprite.symbol.svg#minus"></use>
+                        </svg>
+                        <svg class="icon icon-minus minus-2">
+                          <use xlink:href="assets/symbol/svg/sprite.symbol.svg#minus"></use>
+                        </svg></span></div>
+                  </div>
+                  <div class="accordion__wrap faq-wrap">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat.</p>
+                  </div>
+                </div>
+                <div class="accordion__item faq-item bg-w">
+                  <div class="accordion__title faq-title d-flex justify-between align-center">
+                    <div class="title">Lorem, ipsum dolor sit amet consectetur adipisicing elit</div>
+                    <div class="accordion__item-icon"><span>
+                        <svg class="icon icon-minus ">
+                          <use xlink:href="assets/symbol/svg/sprite.symbol.svg#minus"></use>
+                        </svg>
+                        <svg class="icon icon-minus minus-2">
+                          <use xlink:href="assets/symbol/svg/sprite.symbol.svg#minus"></use>
+                        </svg></span></div>
+                  </div>
+                  <div class="accordion__wrap faq-wrap">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-3-xl col-12-md first-row">
+              <div class="footer__logo"><a class="d-flex align-center text-font-secondary" href="#">Logo</a></div>
+              <div class="footer__social">
+                <div class="footer__social-title text-font-secondary">Follow Us</div>
+                <ul class="d-flex">
+                  <li><a class="d-flex justify-center align-center" href="#">
+                      <svg class="icon icon-facebook icon-fill">
+                        <use xlink:href="assets/symbol/svg/sprite.symbol.svg#facebook"></use>
+                      </svg></a></li>
+                  <li><a class="d-flex justify-center align-center" href="#">
+                      <svg class="icon icon-twitter-x icon-fill">
+                        <use xlink:href="assets/symbol/svg/sprite.symbol.svg#twitter-x"></use>
+                      </svg></a></li>
+                  <li><a class="d-flex justify-center align-center" href="#">
+                      <svg class="icon icon-instagram icon-fill">
+                        <use xlink:href="assets/symbol/svg/sprite.symbol.svg#instagram"></use>
+                      </svg></a></li>
+                  <li><a class="d-flex justify-center align-center" href="#">
+                      <svg class="icon icon-youtube icon-fill">
+                        <use xlink:href="assets/symbol/svg/sprite.symbol.svg#youtube"></use>
+                      </svg></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-9-xl col-12-md">
+              <div class="row">
+                <div class="col-3-xl col-6-md col-12-sm mb-20-md">
+                  <div class="footer__nav">
+                    <div class="footer__nav-title text-font-secondary text-upper text-bold">Menu title</div>
+                    <nav>
+                      <ul>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="col-3-xl col-6-md col-12-sm mb-20-md">
+                  <div class="footer__nav">
+                    <div class="footer__nav-title text-font-secondary text-upper text-bold">Menu title</div>
+                    <nav>
+                      <ul>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="col-3-xl col-6-md col-12-sm mb-20-md">
+                  <div class="footer__nav">
+                    <div class="footer__nav-title text-font-secondary text-upper text-bold">Menu title</div>
+                    <nav>
+                      <ul>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="col-3-xl col-6-md col-12-sm mb-20-md">
+                  <div class="footer__nav">
+                    <div class="footer__nav-title text-font-secondary text-upper text-bold">Menu title</div>
+                    <nav>
+                      <ul>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p>©2025 | All right reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu-sub" id="drop-1">
+      <div class="container">
+        <div class="menu-sub__wrap">
+          <div class="row">
+            <div class="col-9-xl">
+              <div class="row">
+                <div class="col-4-xl">
+                  <div class="title">Online casinos</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">Popular filters</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">Casinos by payment method</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-3-xl d-flex justify-center align-center">
+              <p>Img baner</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu-sub" id="drop-2">
+      <div class="container">
+        <div class="menu-sub__wrap">
+          <div class="row">
+            <div class="col-9-xl">
+              <div class="row">
+                <div class="col-4-xl">
+                  <div class="title">Online games</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">Popular games</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">Free games</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-3-xl d-flex justify-center align-center">
+              <p>Img baner</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu-sub" id="drop-2">
+      <div class="container">
+        <div class="menu-sub__wrap">
+          <div class="row">
+            <div class="col-9-xl">
+              <div class="row">
+                <div class="col-4-xl">
+                  <div class="title">Online games</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">Popular games</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">Free games</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-3-xl d-flex justify-center align-center">
+              <p>Img baner</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu-sub" id="drop-3">
+      <div class="container">
+        <div class="menu-sub__wrap">
+          <div class="row">
+            <div class="col-9-xl">
+              <div class="row">
+                <div class="col-4-xl">
+                  <div class="title">Bonys type</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">All bonuses</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">No deposit bonuses</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-3-xl d-flex justify-center align-center">
+              <p>Img baner</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="login" style="display: none">
+      <div class="popup-title">Login</div>
+      <form>
+        <div class="form-row">
+          <input type="text" placeholder="Login">
+        </div>
+        <div class="form-row">
+          <input type="password" placeholder="Password">
+        </div>
+        <div class="form-login d-flex justify-center">
+          <button class="btn btn-primary" type="button">Login</button>
+        </div>
+      </form>
+    </div>
+    <div class="popup" id="sign" style="display: none">
+      <div class="popup-title">Sign Up</div>
+      <form>
+        <div class="form-row">
+          <input type="text" placeholder="Login">
+        </div>
+        <div class="form-row">
+          <input type="email" placeholder="Email">
+        </div>
+        <div class="form-row">
+          <input type="password" placeholder="Password">
+        </div>
+        <div class="form-row">
+          <input type="password" placeholder="Confirm password">
+        </div>
+        <div class="form-login d-flex justify-center">
+          <button class="btn btn-primary" type="button">Sign up</button>
+        </div>
+      </form>
+    </div>
+    <script src="assets/js/libs/fancybox.umd.js"></script>
+    <script src="assets/js/libs/purecounter.js"></script>
+    <script src="assets/js/libs/swiper-bundle.min.js"></script>
+    <script src="assets/js/libs/nouislider.min.js"></script>
+    <script src="assets/js/json/countries_flags_local.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
