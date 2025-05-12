@@ -1,0 +1,922 @@
+[
+  {
+    "name": "Afar",
+    "code": "aa",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Abkhazian",
+    "code": "ab",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Afrikaans",
+    "code": "af",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Akan",
+    "code": "ak",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Amharic",
+    "code": "am",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Arabic",
+    "code": "ar",
+    "flag": "assets/images/src/flags/sa.svg"
+  },
+  {
+    "name": "Aragonese",
+    "code": "an",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Assamese",
+    "code": "as",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Avaric",
+    "code": "av",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Avestan",
+    "code": "ae",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Aymara",
+    "code": "ay",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Azerbaijani",
+    "code": "az",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Bashkir",
+    "code": "ba",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Bambara",
+    "code": "bm",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Belarusian",
+    "code": "be",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Bengali",
+    "code": "bn",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Bislama",
+    "code": "bi",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Tibetan",
+    "code": "bo",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Bosnian",
+    "code": "bs",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Breton",
+    "code": "br",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Bulgarian",
+    "code": "bg",
+    "flag": "assets/images/src/flags/bg.svg"
+  },
+  {
+    "name": "Catalan",
+    "code": "ca",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Czech",
+    "code": "cs",
+    "flag": "assets/images/src/flags/cz.svg"
+  },
+  {
+    "name": "Chamorro",
+    "code": "ch",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Chechen",
+    "code": "ce",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Church Slavic",
+    "code": "cu",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Chuvash",
+    "code": "cv",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Cornish",
+    "code": "kw",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Corsican",
+    "code": "co",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Cree",
+    "code": "cr",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Welsh",
+    "code": "cy",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Danish",
+    "code": "da",
+    "flag": "assets/images/src/flags/dk.svg"
+  },
+  {
+    "name": "German",
+    "code": "de",
+    "flag": "assets/images/src/flags/de.svg"
+  },
+  {
+    "name": "Dhivehi",
+    "code": "dv",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Dzongkha",
+    "code": "dz",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Modern Greek (1453-)",
+    "code": "el",
+    "flag": "assets/images/src/flags/gr.svg"
+  },
+  {
+    "name": "English",
+    "code": "en",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Esperanto",
+    "code": "eo",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Estonian",
+    "code": "et",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Basque",
+    "code": "eu",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Ewe",
+    "code": "ee",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Faroese",
+    "code": "fo",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Persian",
+    "code": "fa",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Fijian",
+    "code": "fj",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Finnish",
+    "code": "fi",
+    "flag": "assets/images/src/flags/fi.svg"
+  },
+  {
+    "name": "French",
+    "code": "fr",
+    "flag": "assets/images/src/flags/fr.svg"
+  },
+  {
+    "name": "Western Frisian",
+    "code": "fy",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Fulah",
+    "code": "ff",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Scottish Gaelic",
+    "code": "gd",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Irish",
+    "code": "ga",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Galician",
+    "code": "gl",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Manx",
+    "code": "gv",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Guarani",
+    "code": "gn",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Gujarati",
+    "code": "gu",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Haitian",
+    "code": "ht",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Hausa",
+    "code": "ha",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Serbo-Croatian",
+    "code": "sh",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Hebrew",
+    "code": "he",
+    "flag": "assets/images/src/flags/il.svg"
+  },
+  {
+    "name": "Herero",
+    "code": "hz",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Hindi",
+    "code": "hi",
+    "flag": "assets/images/src/flags/in.svg"
+  },
+  {
+    "name": "Hiri Motu",
+    "code": "ho",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Croatian",
+    "code": "hr",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Hungarian",
+    "code": "hu",
+    "flag": "assets/images/src/flags/hu.svg"
+  },
+  {
+    "name": "Armenian",
+    "code": "hy",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Igbo",
+    "code": "ig",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Ido",
+    "code": "io",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Sichuan Yi",
+    "code": "ii",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Inuktitut",
+    "code": "iu",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Interlingue",
+    "code": "ie",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Interlingua (International Auxiliary Language Association)",
+    "code": "ia",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Indonesian",
+    "code": "id",
+    "flag": "assets/images/src/flags/id.svg"
+  },
+  {
+    "name": "Inupiaq",
+    "code": "ik",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Icelandic",
+    "code": "is",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Italian",
+    "code": "it",
+    "flag": "assets/images/src/flags/it.svg"
+  },
+  {
+    "name": "Javanese",
+    "code": "jv",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Japanese",
+    "code": "ja",
+    "flag": "assets/images/src/flags/jp.svg"
+  },
+  {
+    "name": "Kalaallisut",
+    "code": "kl",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Kannada",
+    "code": "kn",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Kashmiri",
+    "code": "ks",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Georgian",
+    "code": "ka",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Kanuri",
+    "code": "kr",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Kazakh",
+    "code": "kk",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Central Khmer",
+    "code": "km",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Kikuyu",
+    "code": "ki",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Kinyarwanda",
+    "code": "rw",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Kirghiz",
+    "code": "ky",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Komi",
+    "code": "kv",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Kongo",
+    "code": "kg",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Korean",
+    "code": "ko",
+    "flag": "assets/images/src/flags/kr.svg"
+  },
+  {
+    "name": "Kuanyama",
+    "code": "kj",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Kurdish",
+    "code": "ku",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Lao",
+    "code": "lo",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Latin",
+    "code": "la",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Latvian",
+    "code": "lv",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Limburgan",
+    "code": "li",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Lingala",
+    "code": "ln",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Lithuanian",
+    "code": "lt",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Luxembourgish",
+    "code": "lb",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Luba-Katanga",
+    "code": "lu",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Ganda",
+    "code": "lg",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Marshallese",
+    "code": "mh",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Malayalam",
+    "code": "ml",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Marathi",
+    "code": "mr",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Macedonian",
+    "code": "mk",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Malagasy",
+    "code": "mg",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Maltese",
+    "code": "mt",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Mongolian",
+    "code": "mn",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Maori",
+    "code": "mi",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Malay (macrolanguage)",
+    "code": "ms",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Burmese",
+    "code": "my",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Nauru",
+    "code": "na",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Navajo",
+    "code": "nv",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "South Ndebele",
+    "code": "nr",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "North Ndebele",
+    "code": "nd",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Ndonga",
+    "code": "ng",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Nepali (macrolanguage)",
+    "code": "ne",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Dutch",
+    "code": "nl",
+    "flag": "assets/images/src/flags/nl.svg"
+  },
+  {
+    "name": "Norwegian Nynorsk",
+    "code": "nn",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Norwegian Bokm\u00e5l",
+    "code": "nb",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Norwegian",
+    "code": "no",
+    "flag": "assets/images/src/flags/no.svg"
+  },
+  {
+    "name": "Nyanja",
+    "code": "ny",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Occitan (post 1500)",
+    "code": "oc",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Ojibwa",
+    "code": "oj",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Oriya (macrolanguage)",
+    "code": "or",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Oromo",
+    "code": "om",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Ossetian",
+    "code": "os",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Panjabi",
+    "code": "pa",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Pali",
+    "code": "pi",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Polish",
+    "code": "pl",
+    "flag": "assets/images/src/flags/pl.svg"
+  },
+  {
+    "name": "Portuguese",
+    "code": "pt",
+    "flag": "assets/images/src/flags/pt.svg"
+  },
+  {
+    "name": "Pushto",
+    "code": "ps",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Quechua",
+    "code": "qu",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Romansh",
+    "code": "rm",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Romanian",
+    "code": "ro",
+    "flag": "assets/images/src/flags/ro.svg"
+  },
+  {
+    "name": "Rundi",
+    "code": "rn",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Russian",
+    "code": "ru",
+    "flag": "assets/images/src/flags/ru.svg"
+  },
+  {
+    "name": "Sango",
+    "code": "sg",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Sanskrit",
+    "code": "sa",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Sinhala",
+    "code": "si",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Slovak",
+    "code": "sk",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Slovenian",
+    "code": "sl",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Northern Sami",
+    "code": "se",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Samoan",
+    "code": "sm",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Shona",
+    "code": "sn",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Sindhi",
+    "code": "sd",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Somali",
+    "code": "so",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Southern Sotho",
+    "code": "st",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Spanish",
+    "code": "es",
+    "flag": "assets/images/src/flags/es.svg"
+  },
+  {
+    "name": "Albanian",
+    "code": "sq",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Sardinian",
+    "code": "sc",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Serbian",
+    "code": "sr",
+    "flag": "assets/images/src/flags/rs.svg"
+  },
+  {
+    "name": "Swati",
+    "code": "ss",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Sundanese",
+    "code": "su",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Swahili (macrolanguage)",
+    "code": "sw",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Swedish",
+    "code": "sv",
+    "flag": "assets/images/src/flags/se.svg"
+  },
+  {
+    "name": "Tahitian",
+    "code": "ty",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Tamil",
+    "code": "ta",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Tatar",
+    "code": "tt",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Telugu",
+    "code": "te",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Tajik",
+    "code": "tg",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Tagalog",
+    "code": "tl",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Thai",
+    "code": "th",
+    "flag": "assets/images/src/flags/th.svg"
+  },
+  {
+    "name": "Tigrinya",
+    "code": "ti",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Tonga (Tonga Islands)",
+    "code": "to",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Tswana",
+    "code": "tn",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Tsonga",
+    "code": "ts",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Turkmen",
+    "code": "tk",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Turkish",
+    "code": "tr",
+    "flag": "assets/images/src/flags/tr.svg"
+  },
+  {
+    "name": "Twi",
+    "code": "tw",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Uighur",
+    "code": "ug",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Ukrainian",
+    "code": "uk",
+    "flag": "assets/images/src/flags/ua.svg"
+  },
+  {
+    "name": "Urdu",
+    "code": "ur",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Uzbek",
+    "code": "uz",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Venda",
+    "code": "ve",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Vietnamese",
+    "code": "vi",
+    "flag": "assets/images/src/flags/vn.svg"
+  },
+  {
+    "name": "Volap\u00fck",
+    "code": "vo",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Walloon",
+    "code": "wa",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Wolof",
+    "code": "wo",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Xhosa",
+    "code": "xh",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Yiddish",
+    "code": "yi",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Yoruba",
+    "code": "yo",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Zhuang",
+    "code": "za",
+    "flag": "assets/images/src/flags/gb.svg"
+  },
+  {
+    "name": "Chinese",
+    "code": "zh",
+    "flag": "assets/images/src/flags/cn.svg"
+  },
+  {
+    "name": "Zulu",
+    "code": "zu",
+    "flag": "assets/images/src/flags/gb.svg"
+  }
+]

@@ -1,0 +1,26 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Wallet base with rounded top corners only -->
+  <path d="M8,16 
+           a4,4 0 0 1 4,-4 
+           h32 
+           a4,4 0 0 1 4,4 
+           v28 
+           h-40 
+           z" 
+        fill="none" stroke="black" stroke-width="2"/>
+
+  <!-- Wallet flap -->
+  <rect x="8" y="16" width="40" height="8" fill="none" stroke="black" stroke-width="2"/>
+
+  <!-- Snap (clasp) on the flap -->
+  <circle cx="28" cy="20" r="2" fill="black"/>
+
+  <!-- Circle badge -->
+  <circle cx="48" cy="48" r="10" fill="none" stroke="black" stroke-width="2"/>
+
+  <!-- MIN text -->
+  <text x="48" y="51" font-family="Arial, sans-serif" font-size="6" font-weight="bold"
+        text-anchor="middle" dominant-baseline="middle" fill="black">
+    MIN
+  </text>
+</svg>

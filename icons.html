@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/libs/fancybox.css">
+    <link rel="stylesheet" href="assets/css/libs/nouislider.min.css">
+    <link rel="stylesheet" href="assets/css/app.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-top">
+        <div class="container d-flex flex-wrap justify-between">
+          <div class="header-top__logo"><a class="d-flex align-center justify-center" href="#">Logo</a></div>
+          <div class="header-top__nav d-flex flex-wrap">
+            <div class="header-top__nav-search">
+              <form>
+                <div class="form-wrap d-flex">
+                  <div class="form-wrap__inner d-flex">
+                    <input type="hidden" name="post_type" value="casinos">
+                    <div class="form-wrap__type">
+                      <label class="d-flex align-center justify-center" for="search">
+                        <div class="label-title">Search for casinos</div><span class="d-flex justify-center align-center">
+                          <svg class="icon icon-right-arrow icon-fill">
+                            <use xlink:href="assets/symbol/svg/sprite.symbol.svg#right-arrow"></use>
+                          </svg></span>
+                      </label>
+                      <ul>
+                        <li class="active" data-type="casinos">Search for casinos</li>
+                        <li data-type="games">Search for games</li>
+                        <li data-type="bonuses">Search for bonuses</li>
+                      </ul>
+                    </div>
+                    <input id="search" name="s">
+                  </div>
+                  <button class="d-flex align-center justify-center" type="submit">
+                    <svg class="icon icon-search icon-stroke icon-20">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#search"></use>
+                    </svg>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="header-top__nav-auth d-flex"><a class="text-font-secondary link__popup" href="#" data-src="#login">Login</a><a class="text-font-secondary link__popup" href="#" data-src="#sign">Sign up</a></div>
+            <button class="btn-burger" type="button"><span class="btn-burger__line"></span><span class="btn-burger__line"></span><span class="btn-burger__line"></span></button>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="container d-flex justify-between column-md">
+          <nav class="menu-primary">
+            <ul class="d-flex">
+              <li class="current-menu-item"><a class="d-flex align-center" href="/">
+                  <div class="menu-item__icon menu-item__icon-home">
+                    <svg class="icon icon-house icon-fill">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#house"></use>
+                    </svg>
+                  </div>Home</a></li>
+              <li class="dropdowns"><a class="d-flex align-center" href="casinos.html" data-children="drop-1">
+                  <div class="menu-item__icon">
+                    <svg class="icon icon-casino-2 icon-fill">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#casino-2"></use>
+                    </svg>
+                  </div>Online casinos</a></li>
+              <li class="dropdowns"><a class="d-flex align-center" href="games.html" data-children="drop-2">
+                  <div class="menu-item__icon">
+                    <svg class="icon icon-games icon-fill">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#games"></use>
+                    </svg>
+                  </div>Games</a></li>
+              <li class="dropdowns"><a class="d-flex align-center" href="bonuses.html" data-children="drop-3">
+                  <div class="menu-item__icon menu-item__icon-bonuses">
+                    <svg class="icon icon-giftbox icon-fill">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#giftbox"></use>
+                    </svg>
+                  </div>Bobuses</a></li>
+              <li><a class="d-flex align-center" href="reviews.html">
+                  <div class="menu-item__icon">
+                    <svg class="icon icon-star icon-fill">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#star"></use>
+                    </svg>
+                  </div>Reviews</a></li>
+              <li><a class="d-flex align-center" href="news.html">
+                  <div class="menu-item__icon menu-item__icon-news">
+                    <svg class="icon icon-newspaper icon-fill">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#newspaper"></use>
+                    </svg>
+                  </div>News</a></li>
+            </ul>
+          </nav>
+          <div class="header__lang">
+            <button class="d-flex align-center">
+              <svg class="icon icon-language icon-stroke icon-20">
+                <use xlink:href="assets/symbol/svg/sprite.symbol.svg#language"></use>
+              </svg><span>ENG</span>
+            </button>
+            <ul>
+              <li><a class="d-flex align-center" href="#">
+                  <div class="icon-lang ratio" data-lang-name="ua"></div>Українська</a></li>
+              <li><a class="d-flex align-center" href="#">
+                  <div class="icon-lang ratio" data-lang-name="cz"></div>Čeština</a></li>
+              <li><a class="d-flex align-center" href="#">
+                  <div class="icon-lang ratio" data-lang-name="dk"></div>Dansk</a></li>
+              <li><a class="d-flex align-center" href="#">
+                  <div class="icon-lang ratio" data-lang-name="de"></div>Deutsch</a></li>
+              <li><a class="d-flex align-center" href="#">
+                  <div class="icon-lang ratio" data-lang-name="gb"></div>English</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>Icons</h1>
+        </div>
+        <div class="col-4-xl">
+          <div class="icon-wrap d-flex flex-column align-center">
+            <svg class="icon icon-casino icon-fill icon-primary">
+              <use xlink:href="assets/symbol/svg/sprite.symbol.svg#casino"></use>
+            </svg>
+            <div class="icon-name">casino</div>
+          </div>
+        </div>
+        <div class="col-4-xl">
+          <div class="icon-wrap d-flex flex-column align-center">
+            <svg class="icon icon-dice-six icon-fill icon-primary">
+              <use xlink:href="assets/symbol/svg/sprite.symbol.svg#dice-six"></use>
+            </svg>
+            <div class="icon-name">dice-six</div>
+          </div>
+        </div>
+        <div class="col-4-xl">
+          <div class="icon-wrap d-flex flex-column align-center">
+            <svg class="icon icon-giftbox icon-fill icon-primary">
+              <use xlink:href="assets/symbol/svg/sprite.symbol.svg#giftbox"></use>
+            </svg>
+            <div class="icon-name">giftbox</div>
+          </div>
+        </div>
+        <div class="col-4-xl">
+          <div class="icon-wrap d-flex flex-column align-center">
+            <svg class="icon icon-bonuses icon-fill icon-primary">
+              <use xlink:href="assets/symbol/svg/sprite.symbol.svg#bonuses"></use>
+            </svg>
+            <div class="icon-name">bonuses</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-3-xl col-12-md first-row">
+              <div class="footer__logo"><a class="d-flex align-center text-font-secondary" href="#">Logo</a></div>
+              <div class="footer__social">
+                <div class="footer__social-title text-font-secondary">Follow Us</div>
+                <ul class="d-flex">
+                  <li><a class="d-flex justify-center align-center" href="#">
+                      <svg class="icon icon-facebook icon-fill">
+                        <use xlink:href="assets/symbol/svg/sprite.symbol.svg#facebook"></use>
+                      </svg></a></li>
+                  <li><a class="d-flex justify-center align-center" href="#">
+                      <svg class="icon icon-twitter-x icon-fill">
+                        <use xlink:href="assets/symbol/svg/sprite.symbol.svg#twitter-x"></use>
+                      </svg></a></li>
+                  <li><a class="d-flex justify-center align-center" href="#">
+                      <svg class="icon icon-instagram icon-fill">
+                        <use xlink:href="assets/symbol/svg/sprite.symbol.svg#instagram"></use>
+                      </svg></a></li>
+                  <li><a class="d-flex justify-center align-center" href="#">
+                      <svg class="icon icon-youtube icon-fill">
+                        <use xlink:href="assets/symbol/svg/sprite.symbol.svg#youtube"></use>
+                      </svg></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-9-xl col-12-md">
+              <div class="row">
+                <div class="col-3-xl col-6-md col-12-sm mb-20-md">
+                  <div class="footer__nav">
+                    <div class="footer__nav-title text-font-secondary text-upper text-bold">Menu title</div>
+                    <nav>
+                      <ul>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="col-3-xl col-6-md col-12-sm mb-20-md">
+                  <div class="footer__nav">
+                    <div class="footer__nav-title text-font-secondary text-upper text-bold">Menu title</div>
+                    <nav>
+                      <ul>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="col-3-xl col-6-md col-12-sm mb-20-md">
+                  <div class="footer__nav">
+                    <div class="footer__nav-title text-font-secondary text-upper text-bold">Menu title</div>
+                    <nav>
+                      <ul>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="col-3-xl col-6-md col-12-sm mb-20-md">
+                  <div class="footer__nav">
+                    <div class="footer__nav-title text-font-secondary text-upper text-bold">Menu title</div>
+                    <nav>
+                      <ul>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p>©2025 | All right reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu-sub" id="drop-1">
+      <div class="container">
+        <div class="menu-sub__wrap">
+          <div class="row">
+            <div class="col-9-xl">
+              <div class="row">
+                <div class="col-4-xl">
+                  <div class="title">Online casinos</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">Popular filters</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">Casinos by payment method</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-3-xl d-flex justify-center align-center">
+              <p>Img baner</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu-sub" id="drop-2">
+      <div class="container">
+        <div class="menu-sub__wrap">
+          <div class="row">
+            <div class="col-9-xl">
+              <div class="row">
+                <div class="col-4-xl">
+                  <div class="title">Online games</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">Popular games</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">Free games</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-3-xl d-flex justify-center align-center">
+              <p>Img baner</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu-sub" id="drop-2">
+      <div class="container">
+        <div class="menu-sub__wrap">
+          <div class="row">
+            <div class="col-9-xl">
+              <div class="row">
+                <div class="col-4-xl">
+                  <div class="title">Online games</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">Popular games</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">Free games</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-3-xl d-flex justify-center align-center">
+              <p>Img baner</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu-sub" id="drop-3">
+      <div class="container">
+        <div class="menu-sub__wrap">
+          <div class="row">
+            <div class="col-9-xl">
+              <div class="row">
+                <div class="col-4-xl">
+                  <div class="title">Bonys type</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">All bonuses</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">No deposit bonuses</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-3-xl d-flex justify-center align-center">
+              <p>Img baner</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="login" style="display: none">
+      <div class="popup-title">Login</div>
+      <form>
+        <div class="form-row">
+          <input type="text" placeholder="Login">
+        </div>
+        <div class="form-row">
+          <input type="password" placeholder="Password">
+        </div>
+        <div class="form-login d-flex justify-center">
+          <button class="btn btn-primary" type="button">Login</button>
+        </div>
+      </form>
+    </div>
+    <div class="popup" id="sign" style="display: none">
+      <div class="popup-title">Sign Up</div>
+      <form>
+        <div class="form-row">
+          <input type="text" placeholder="Login">
+        </div>
+        <div class="form-row">
+          <input type="email" placeholder="Email">
+        </div>
+        <div class="form-row">
+          <input type="password" placeholder="Password">
+        </div>
+        <div class="form-row">
+          <input type="password" placeholder="Confirm password">
+        </div>
+        <div class="form-login d-flex justify-center">
+          <button class="btn btn-primary" type="button">Sign up</button>
+        </div>
+      </form>
+    </div>
+    <script src="assets/js/libs/fancybox.umd.js"></script>
+    <script src="assets/js/libs/purecounter.js"></script>
+    <script src="assets/js/libs/swiper-bundle.min.js"></script>
+    <script src="assets/js/libs/nouislider.min.js"></script>
+    <script src="assets/js/json/countries_flags_local.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

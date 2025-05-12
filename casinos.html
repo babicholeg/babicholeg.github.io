@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/libs/fancybox.css">
+    <link rel="stylesheet" href="assets/css/libs/nouislider.min.css">
+    <link rel="stylesheet" href="assets/css/app.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-top">
+        <div class="container d-flex flex-wrap justify-between">
+          <div class="header-top__logo"><a class="d-flex align-center justify-center" href="#">Logo</a></div>
+          <div class="header-top__nav d-flex flex-wrap">
+            <div class="header-top__nav-search">
+              <form>
+                <div class="form-wrap d-flex">
+                  <div class="form-wrap__inner d-flex">
+                    <input type="hidden" name="post_type" value="casinos">
+                    <div class="form-wrap__type">
+                      <label class="d-flex align-center justify-center" for="search">
+                        <div class="label-title">Search for casinos</div><span class="d-flex justify-center align-center">
+                          <svg class="icon icon-right-arrow icon-fill">
+                            <use xlink:href="assets/symbol/svg/sprite.symbol.svg#right-arrow"></use>
+                          </svg></span>
+                      </label>
+                      <ul>
+                        <li class="active" data-type="casinos">Search for casinos</li>
+                        <li data-type="games">Search for games</li>
+                        <li data-type="bonuses">Search for bonuses</li>
+                      </ul>
+                    </div>
+                    <input id="search" name="s">
+                  </div>
+                  <button class="d-flex align-center justify-center" type="submit">
+                    <svg class="icon icon-search icon-stroke icon-20">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#search"></use>
+                    </svg>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="header-top__nav-auth d-flex"><a class="text-font-secondary link__popup" href="#" data-src="#login">Login</a><a class="text-font-secondary link__popup" href="#" data-src="#sign">Sign up</a></div>
+            <button class="btn-burger" type="button"><span class="btn-burger__line"></span><span class="btn-burger__line"></span><span class="btn-burger__line"></span></button>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="container d-flex justify-between column-md">
+          <nav class="menu-primary">
+            <ul class="d-flex">
+              <li class="current-menu-item"><a class="d-flex align-center" href="/">
+                  <div class="menu-item__icon menu-item__icon-home">
+                    <svg class="icon icon-house icon-fill">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#house"></use>
+                    </svg>
+                  </div>Home</a></li>
+              <li class="dropdowns"><a class="d-flex align-center" href="casinos.html" data-children="drop-1">
+                  <div class="menu-item__icon">
+                    <svg class="icon icon-casino-2 icon-fill">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#casino-2"></use>
+                    </svg>
+                  </div>Online casinos</a></li>
+              <li class="dropdowns"><a class="d-flex align-center" href="games.html" data-children="drop-2">
+                  <div class="menu-item__icon">
+                    <svg class="icon icon-games icon-fill">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#games"></use>
+                    </svg>
+                  </div>Games</a></li>
+              <li class="dropdowns"><a class="d-flex align-center" href="bonuses.html" data-children="drop-3">
+                  <div class="menu-item__icon menu-item__icon-bonuses">
+                    <svg class="icon icon-giftbox icon-fill">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#giftbox"></use>
+                    </svg>
+                  </div>Bobuses</a></li>
+              <li><a class="d-flex align-center" href="reviews.html">
+                  <div class="menu-item__icon">
+                    <svg class="icon icon-star icon-fill">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#star"></use>
+                    </svg>
+                  </div>Reviews</a></li>
+              <li><a class="d-flex align-center" href="news.html">
+                  <div class="menu-item__icon menu-item__icon-news">
+                    <svg class="icon icon-newspaper icon-fill">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#newspaper"></use>
+                    </svg>
+                  </div>News</a></li>
+            </ul>
+          </nav>
+          <div class="header__lang">
+            <button class="d-flex align-center">
+              <svg class="icon icon-language icon-stroke icon-20">
+                <use xlink:href="assets/symbol/svg/sprite.symbol.svg#language"></use>
+              </svg><span>ENG</span>
+            </button>
+            <ul>
+              <li><a class="d-flex align-center" href="#">
+                  <div class="icon-lang ratio" data-lang-name="ua"></div>Українська</a></li>
+              <li><a class="d-flex align-center" href="#">
+                  <div class="icon-lang ratio" data-lang-name="cz"></div>Čeština</a></li>
+              <li><a class="d-flex align-center" href="#">
+                  <div class="icon-lang ratio" data-lang-name="dk"></div>Dansk</a></li>
+              <li><a class="d-flex align-center" href="#">
+                  <div class="icon-lang ratio" data-lang-name="de"></div>Deutsch</a></li>
+              <li><a class="d-flex align-center" href="#">
+                  <div class="icon-lang ratio" data-lang-name="gb"></div>English</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main-wrapper">
+      <div class="hero hero-home glow-block">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 breadscrumbs">
+              <ul class="d-flex align-center">
+                <li><a class="d-flex align-center" href="/">Home
+                    <svg class="icon icon-right-arrow icon-fill">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#right-arrow"></use>
+                    </svg></a></li>
+                <li><span class="d-flex align-center">Online casinos
+                    <svg class="icon icon-right-arrow icon-fill">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#right-arrow"></use>
+                    </svg></span></li>
+              </ul>
+            </div>
+            <div class="col-6-xl col-12-sm d-flex justify-center flex-column mb-20-sm">
+              <h1>Lorem ipsum</h1>
+              <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+            </div>
+            <div class="col-6-xl col-12-sm">
+              <div class="hero__img ratio d-flex justify-center align-center">
+                <div class="baner">Baner</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="csn">
+          <div class="container">
+            <div class="row">
+              <div class="col-3-xl col-12-lg">
+                <div class="csn-filter">
+                  <div class="csn-filter__title text-font-secondary text-bold">Filter casinos</div>
+                  <div class="filter__wrap csn-filter__wrap accordion">
+                    <div class="filter__item accordion__item active">
+                      <div class="filter__title accordion__title d-flex align-center justify-between">Rating</div>
+                      <div class="filter__container filter__container-slider accordion__wrap" style="max-height: initial">
+                        <div class="wrap__inputs d-flex flex-wrap">
+                          <div class="wrap__inputs-left d-flex">
+                            <input class="rating-min" type="number" name="rating-min" value="0">
+                          </div>
+                          <div class="wrap__inputs-right">
+                            <input class="rating-max" type="number" name="rating-max" value="5">
+                          </div>
+                        </div>
+                        <div class="wrap">
+                          <div id="rating"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="filter__item accordion__item">
+                      <div class="filter__title accordion__title d-flex align-center justify-between">Licensing Authorities</div>
+                      <div class="filter__container accordion__wrap">
+                        <ul>
+                          <li>
+                            <input id="licensing_1" type="checkbox" name="licensing[]" value="1">
+                            <label for="licensing_1">
+                              <svg class="icon icon-check icon-fill">
+                                <use xlink:href="assets/symbol/svg/sprite.symbol.svg#check"></use>
+                              </svg>Curaçao
+                            </label>
+                          </li>
+                          <li>
+                            <input id="licensing_2" type="checkbox" name="licensing[]" value="2">
+                            <label for="licensing_2">
+                              <svg class="icon icon-check icon-fill">
+                                <use xlink:href="assets/symbol/svg/sprite.symbol.svg#check"></use>
+                              </svg>MGA
+                            </label>
+                          </li>
+                          <li>
+                            <input id="licensing_3" type="checkbox" name="licensing[]" value="3">
+                            <label for="licensing_3">
+                              <svg class="icon icon-check icon-fill">
+                                <use xlink:href="assets/symbol/svg/sprite.symbol.svg#check"></use>
+                              </svg>UKGC
+                            </label>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="filter__item accordion__item">
+                      <div class="filter__title accordion__title d-flex align-center justify-between">Game providers</div>
+                      <div class="filter__container accordion__wrap">
+                        <ul>
+                          <li>
+                            <input id="providers_1" type="checkbox" name="providers[]" value="1">
+                            <label for="providers_1">
+                              <svg class="icon icon-check icon-fill">
+                                <use xlink:href="assets/symbol/svg/sprite.symbol.svg#check"></use>
+                              </svg>NetEnt
+                            </label>
+                          </li>
+                          <li>
+                            <input id="providers_2" type="checkbox" name="providers[]" value="2">
+                            <label for="providers_2">
+                              <svg class="icon icon-check icon-fill">
+                                <use xlink:href="assets/symbol/svg/sprite.symbol.svg#check"></use>
+                              </svg>Microgaming
+                            </label>
+                          </li>
+                          <li>
+                            <input id="providers_3" type="checkbox" name="providers[]" value="3">
+                            <label for="providers_3">
+                              <svg class="icon icon-check icon-fill">
+                                <use xlink:href="assets/symbol/svg/sprite.symbol.svg#check"></use>
+                              </svg>Novomatic
+                            </label>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="filter__item accordion__item">
+                      <div class="filter__title accordion__title d-flex align-center justify-between">Payment methods</div>
+                      <div class="filter__container accordion__wrap">
+                        <ul>
+                          <li>
+                            <input id="payment_1" type="checkbox" name="payment[]" value="1">
+                            <label for="payment_1">
+                              <svg class="icon icon-check icon-fill">
+                                <use xlink:href="assets/symbol/svg/sprite.symbol.svg#check"></use>
+                              </svg>Visa
+                            </label>
+                          </li>
+                          <li>
+                            <input id="payment_2" type="checkbox" name="payment[]" value="2">
+                            <label for="payment_2">
+                              <svg class="icon icon-check icon-fill">
+                                <use xlink:href="assets/symbol/svg/sprite.symbol.svg#check"></use>
+                              </svg>Mastercard
+                            </label>
+                          </li>
+                          <li>
+                            <input id="payment_3" type="checkbox" name="payment[]" value="3">
+                            <label for="payment_3">
+                              <svg class="icon icon-check icon-fill">
+                                <use xlink:href="assets/symbol/svg/sprite.symbol.svg#check"></use>
+                              </svg>Skrill
+                            </label>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="filter__item accordion__item">
+                      <div class="filter__title accordion__title d-flex align-center justify-between">Established</div>
+                      <div class="filter__container filter__container-slider accordion__wrap">
+                        <div class="wrap__inputs d-flex flex-wrap">
+                          <div class="wrap__inputs-left d-flex">
+                            <input class="established-min" type="number" name="established-min" value="">
+                          </div>
+                          <div class="wrap__inputs-right">
+                            <input class="established-max" type="number" name="established-max" value="">
+                          </div>
+                        </div>
+                        <div class="wrap">
+                          <div id="established"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="filter__item accordion__item">
+                      <div class="filter__title accordion__title d-flex align-center justify-between">Minimum deposit</div>
+                      <div class="filter__container filter__container-slider accordion__wrap">
+                        <div class="wrap__inputs d-flex flex-wrap">
+                          <div class="wrap__inputs-left d-flex">
+                            <div class="wrap__inputs-placeholder">$</div>
+                            <input class="deposit-min" type="number" name="deposit-min" value="">
+                          </div>
+                          <div class="wrap__inputs-right d-flex">
+                            <div class="wrap__inputs-placeholder">$</div>
+                            <input class="deposit-max" type="number" name="deposit-max" value="">
+                          </div>
+                        </div>
+                        <div class="wrap">
+                          <div id="deposit"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="filter__item accordion__item">
+                      <div class="filter__title accordion__title d-flex align-center justify-between">Withdrawal speed</div>
+                      <div class="filter__container accordion__wrap">
+                        <ul>
+                          <li>
+                            <input id="speed_1" type="radio" name="speed" value="1">
+                            <label for="speed_1">Up to 1 hour</label>
+                          </li>
+                          <li>
+                            <input id="speed_2" type="radio" name="speed" value="2">
+                            <label for="speed_2">Up to 24 hours</label>
+                          </li>
+                          <li>
+                            <input id="speed_3" type="radio" name="speed" value="3">
+                            <label for="speed_3">1-3 days</label>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="filter__item accordion__item">
+                      <div class="filter__title accordion__title d-flex align-center justify-between">Mobile application</div>
+                      <div class="filter__container accordion__wrap">
+                        <ul>
+                          <li>
+                            <input id="application_1" type="radio" name="application" value="1">
+                            <label for="application_1">No</label>
+                          </li>
+                          <li>
+                            <input id="application_2" type="radio" name="application" value="2">
+                            <label for="application_2">Yes</label>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="filter__item accordion__item">
+                      <div class="filter__title accordion__title d-flex align-center justify-between">Status</div>
+                      <div class="filter__container accordion__wrap">
+                        <ul>
+                          <li>
+                            <input id="status_1" type="checkbox" name="status[]" value="1">
+                            <label for="status_1">
+                              <svg class="icon icon-check icon-fill">
+                                <use xlink:href="assets/symbol/svg/sprite.symbol.svg#check"></use>
+                              </svg>Exclusive
+                            </label>
+                          </li>
+                          <li>
+                            <input id="status_2" type="checkbox" name="status[]" value="2">
+                            <label for="status_2">
+                              <svg class="icon icon-check icon-fill">
+                                <use xlink:href="assets/symbol/svg/sprite.symbol.svg#check"></use>
+                              </svg>Top
+                            </label>
+                          </li>
+                          <li>
+                            <input id="status_3" type="checkbox" name="status[]" value="3">
+                            <label for="status_3">
+                              <svg class="icon icon-check icon-fill">
+                                <use xlink:href="assets/symbol/svg/sprite.symbol.svg#check"></use>
+                              </svg>Recommended
+                            </label>
+                          </li>
+                          <li>
+                            <input id="status_4" type="checkbox" name="status[]" value="4">
+                            <label for="status_4">
+                              <svg class="icon icon-check icon-fill">
+                                <use xlink:href="assets/symbol/svg/sprite.symbol.svg#check"></use>
+                              </svg>New
+                            </label>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="filter__item accordion__item">
+                      <div class="filter__title accordion__title d-flex align-center justify-between">Country</div>
+                      <div class="filter__container accordion__wrap">
+                        <div class="language-filter"><input type="text" id="languageSearch" placeholder="Search country...">
+                          <div class="language-list" id="languageList"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-9-xl col-12-lg">
+                <div class="csn-order d-flex justify-between align-center">
+                  <button class="btn-filter" type="button">
+                    <svg class="icon icon-filter icon-fill icon-20">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#filter"></use>
+                    </svg>Filter
+                  </button>
+                  <div class="csn-order__form d-flex justify-end align-center"><span>Sort by: </span>
+                    <form>
+                      <select>
+                        <option value="1">Recommended</option>
+                        <option value="1">Recommended</option>
+                        <option value="1">Recommended</option>
+                        <option value="1">Recommended</option>
+                      </select>
+                    </form>
+                  </div>
+                </div>
+                <div class="csn-loop">
+                  <div class="csn-loop__item">
+                    <div class="row">
+                      <div class="col-2-xl col-12-sm">
+                        <div class="csn-loop__item-left d-flex align-center flex-column">
+                          <div class="ratio ratio-16x9"><img src="assets/images/src/logo-riobet.svg" alt=""></div>
+                          <div class="csn-loop__item-left-rating d-flex align-center justify-center flex-column">
+                            <div class="rating-count"><span>5</span>/5</div>
+                            <div class="rating rating-average"><span style="width: 100%"></span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-7-xl col-12-sm">
+                        <div class="csn-loop__item-center">
+                          <div class="d-flex justify-between align-center csn-loop__item-center-header">
+                            <div class="h3 text-font-secondary text-bold">RioBet Casino</div>
+                            <div class="badge exclusive">Exclusive</div>
+                          </div>
+                          <div class="d-flex csn-loop__item-center-text">
+                            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          </div>
+                          <div class="d-flex justify-between csn-loop__item-center-footer"><a class="btn btn-primary" href="casino-single.html">Read more</a><a class="btn btn-secondary d-flex align-center justify-center" href="#">Visit casino</a></div>
+                        </div>
+                      </div>
+                      <div class="col-3-xl col-12-sm d-none-sm">
+                        <div class="csn-loop__item-right d-flex flex-column">
+                          <div class="csn-loop__item-right-block d-flex flex-column">
+                            <div class="text-font-secondary text-upper text-bold">Game providers</div>
+                            <div class="csn-right__blocks-wrap"><a href="#"><img src="assets/images/src/providers/provider.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-2.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-3.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-4.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-2.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-3.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-4.svg" alt=""></a></div>
+                          </div>
+                          <div class="csn-loop__item-right-block d-flex flex-column">
+                            <div class="text-font-secondary text-upper text-bold">Payment methods</div>
+                            <div class="csn-right__blocks-wrap"><a href="#"><img src="assets/images/src/payments/visa.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/mastercard.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/skrill.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/neteller.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/visa.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/mastercard.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/skrill.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/neteller.svg" alt=""></a></div>
+                          </div>
+                          <div class="csn-loop__item-right-block">
+                            <div class="text-font-secondary text-upper text-bold">Licensing Authorities</div>
+                            <div class="d-flex flex-wrap align-center"><a class="d-flex align-center" href="#">Curaçao</a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="csn-loop__item">
+                    <div class="row">
+                      <div class="col-2-xl col-12-sm">
+                        <div class="csn-loop__item-left d-flex align-center flex-column">
+                          <div class="ratio ratio-16x9"><img src="assets/images/src/vavada_logo.svg" alt=""></div>
+                          <div class="csn-loop__item-left-rating d-flex align-center justify-center flex-column">
+                            <div class="rating-count"><span>2.5</span>/5</div>
+                            <div class="rating rating-average"><span style="width: 50%"></span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-7-xl col-12-sm">
+                        <div class="csn-loop__item-center">
+                          <div class="d-flex justify-between align-center csn-loop__item-center-header">
+                            <div class="h3 text-font-secondary text-bold">Vavada Casino</div>
+                            <div class="badge new">New</div>
+                          </div>
+                          <div class="d-flex csn-loop__item-center-text">
+                            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          </div>
+                          <div class="d-flex justify-between csn-loop__item-center-footer"><a class="btn btn-primary" href="#">Read more</a><a class="btn btn-secondary d-flex align-center justify-center" href="#">Visit casino</a></div>
+                        </div>
+                      </div>
+                      <div class="col-3-xl col-12-sm d-none-sm">
+                        <div class="csn-loop__item-right d-flex flex-column">
+                          <div class="csn-loop__item-right-block d-flex flex-column">
+                            <div class="text-font-secondary text-upper text-bold">Game providers</div>
+                            <div class="csn-right__blocks-wrap"><a href="#"><img src="assets/images/src/providers/provider.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-2.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-3.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-4.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-2.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-3.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-4.svg" alt=""></a></div>
+                          </div>
+                          <div class="csn-loop__item-right-block d-flex flex-column">
+                            <div class="text-font-secondary text-upper text-bold">Payment methods</div>
+                            <div class="csn-right__blocks-wrap"><a href="#"><img src="assets/images/src/payments/visa.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/mastercard.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/skrill.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/neteller.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/visa.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/mastercard.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/skrill.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/neteller.svg" alt=""></a></div>
+                          </div>
+                          <div class="csn-loop__item-right-block">
+                            <div class="text-font-secondary text-upper text-bold">Licensing Authorities</div>
+                            <div class="d-flex flex-wrap align-center"><a class="d-flex align-center" href="#">Curaçao</a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="csn-loop__item">
+                    <div class="row">
+                      <div class="col-2-xl col-12-sm">
+                        <div class="csn-loop__item-left d-flex align-center flex-column">
+                          <div class="ratio ratio-16x9"><img src="assets/images/src/junglebet.svg" alt=""></div>
+                          <div class="csn-loop__item-left-rating d-flex align-center justify-center flex-column">
+                            <div class="rating-count"><span>5</span>/5</div>
+                            <div class="rating rating-average"><span style="width: 100%"></span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-7-xl col-12-sm">
+                        <div class="csn-loop__item-center">
+                          <div class="d-flex justify-between align-center csn-loop__item-center-header">
+                            <div class="h3 text-font-secondary text-bold">RioBet Casino</div>
+                            <div class="badge top">Top</div>
+                          </div>
+                          <div class="d-flex csn-loop__item-center-text">
+                            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          </div>
+                          <div class="d-flex justify-between csn-loop__item-center-footer"><a class="btn btn-primary" href="#">Read more</a><a class="btn btn-secondary d-flex align-center justify-center" href="#">Visit casino</a></div>
+                        </div>
+                      </div>
+                      <div class="col-3-xl col-12-sm d-none-sm">
+                        <div class="csn-loop__item-right d-flex flex-column">
+                          <div class="csn-loop__item-right-block d-flex flex-column">
+                            <div class="text-font-secondary text-upper text-bold">Game providers</div>
+                            <div class="csn-right__blocks-wrap"><a href="#"><img src="assets/images/src/providers/provider.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-2.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-3.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-4.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-2.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-3.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-4.svg" alt=""></a></div>
+                          </div>
+                          <div class="csn-loop__item-right-block d-flex flex-column">
+                            <div class="text-font-secondary text-upper text-bold">Payment methods</div>
+                            <div class="csn-right__blocks-wrap"><a href="#"><img src="assets/images/src/payments/visa.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/mastercard.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/skrill.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/neteller.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/visa.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/mastercard.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/skrill.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/neteller.svg" alt=""></a></div>
+                          </div>
+                          <div class="csn-loop__item-right-block">
+                            <div class="text-font-secondary text-upper text-bold">Licensing Authorities</div>
+                            <div class="d-flex flex-wrap align-center"><a class="d-flex align-center" href="#">Curaçao</a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="csn-loop__item">
+                    <div class="row">
+                      <div class="col-2-xl col-12-sm">
+                        <div class="csn-loop__item-left d-flex justify-center flex-column">
+                          <div class="ratio ratio-16x9"><img src="assets/images/src/monro.svg" alt=""></div>
+                          <div class="csn-loop__item-left-rating d-flex align-center justify-center flex-column">
+                            <div class="rating-count"><span>2.5</span>/5</div>
+                            <div class="rating rating-average"><span style="width: 50%"></span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-7-xl col-12-sm">
+                        <div class="csn-loop__item-center">
+                          <div class="d-flex justify-between align-center csn-loop__item-center-header">
+                            <div class="h3 text-font-secondary text-bold">Vavada Casino</div>
+                            <div class="badge recommended">Recommended</div>
+                          </div>
+                          <div class="d-flex csn-loop__item-center-text">
+                            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          </div>
+                          <div class="d-flex justify-between csn-loop__item-center-footer"><a class="btn btn-primary" href="#">Read more</a><a class="btn btn-secondary d-flex align-center justify-center" href="#">Visit casino</a></div>
+                        </div>
+                      </div>
+                      <div class="col-3-xl col-12-sm d-none-sm">
+                        <div class="csn-loop__item-right d-flex flex-column">
+                          <div class="csn-loop__item-right-block d-flex flex-column">
+                            <div class="text-font-secondary text-upper text-bold">Game providers</div>
+                            <div class="csn-right__blocks-wrap"><a href="#"><img src="assets/images/src/providers/provider.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-2.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-3.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-4.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-2.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-3.svg" alt=""></a><a href="#"><img src="assets/images/src/providers/provider-4.svg" alt=""></a></div>
+                          </div>
+                          <div class="csn-loop__item-right-block d-flex flex-column">
+                            <div class="text-font-secondary text-upper text-bold">Payment methods</div>
+                            <div class="csn-right__blocks-wrap"><a href="#"><img src="assets/images/src/payments/visa.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/mastercard.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/skrill.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/neteller.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/visa.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/mastercard.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/skrill.svg" alt=""></a><a href="#"><img src="assets/images/src/payments/neteller.svg" alt=""></a></div>
+                          </div>
+                          <div class="csn-loop__item-right-block">
+                            <div class="text-font-secondary text-upper text-bold">Licensing Authorities</div>
+                            <div class="d-flex flex-wrap align-center"><a class="d-flex align-center" href="#">Curaçao</a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pagination">
+                  <ul>
+                    <li><span>1</span></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="home-article">
+      <div class="section bg-w">
+        <div class="container">
+          <h2 class="mb-20">Seo text</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod dolor quibusdam molestias mollitia veniam! Iste at expedita optio numquam repudiandae dolor fuga provident unde, accusantium dolore doloribus, laborum minima voluptatem?</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum vitae quia voluptatum deleniti cupiditate nesciunt atque obcaecati quis! Maxime, accusamus optio. Ut illo nihil beatae repellendus sunt quas alias ipsa.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, voluptates minima dolorum nostrum, veritatis quisquam facilis perferendis soluta reiciendis provident doloremque quibusdam ducimus suscipit sed placeat quia, deleniti ipsa est.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus fugit tempora, eveniet nesciunt explicabo expedita non, deleniti reprehenderit eum suscipit iusto quo repellat sunt, odio ullam esse animi laudantium quod?</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et rerum ducimus error omnis, pariatur vel, eaque quae, dolor maxime sit explicabo! Fuga accusamus commodi ducimus eum debitis soluta sunt porro.</p>
+        </div>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="section">
+        <div class="container">
+          <h2 class="mb-20">FAQ</h2>
+          <div class="accordion">
+            <div class="accordion__item faq-item bg-w">
+              <div class="accordion__title faq-title d-flex justify-between align-center">
+                <div class="title">Lorem, ipsum dolor sit amet consectetur adipisicing elit</div>
+                <div class="accordion__item-icon"><span>
+                    <svg class="icon icon-minus ">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#minus"></use>
+                    </svg>
+                    <svg class="icon icon-minus minus-2">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#minus"></use>
+                    </svg></span></div>
+              </div>
+              <div class="accordion__wrap faq-wrap">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat.</p>
+              </div>
+            </div>
+            <div class="accordion__item faq-item bg-w">
+              <div class="accordion__title faq-title d-flex justify-between align-center">
+                <div class="title">Lorem, ipsum dolor sit amet consectetur adipisicing elit</div>
+                <div class="accordion__item-icon"><span>
+                    <svg class="icon icon-minus ">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#minus"></use>
+                    </svg>
+                    <svg class="icon icon-minus minus-2">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#minus"></use>
+                    </svg></span></div>
+              </div>
+              <div class="accordion__wrap faq-wrap">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat.</p>
+              </div>
+            </div>
+            <div class="accordion__item faq-item bg-w">
+              <div class="accordion__title faq-title d-flex justify-between align-center">
+                <div class="title">Lorem, ipsum dolor sit amet consectetur adipisicing elit</div>
+                <div class="accordion__item-icon"><span>
+                    <svg class="icon icon-minus ">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#minus"></use>
+                    </svg>
+                    <svg class="icon icon-minus minus-2">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#minus"></use>
+                    </svg></span></div>
+              </div>
+              <div class="accordion__wrap faq-wrap">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat.</p>
+              </div>
+            </div>
+            <div class="accordion__item faq-item bg-w">
+              <div class="accordion__title faq-title d-flex justify-between align-center">
+                <div class="title">Lorem, ipsum dolor sit amet consectetur adipisicing elit</div>
+                <div class="accordion__item-icon"><span>
+                    <svg class="icon icon-minus ">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#minus"></use>
+                    </svg>
+                    <svg class="icon icon-minus minus-2">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#minus"></use>
+                    </svg></span></div>
+              </div>
+              <div class="accordion__wrap faq-wrap">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat.</p>
+              </div>
+            </div>
+            <div class="accordion__item faq-item bg-w">
+              <div class="accordion__title faq-title d-flex justify-between align-center">
+                <div class="title">Lorem, ipsum dolor sit amet consectetur adipisicing elit</div>
+                <div class="accordion__item-icon"><span>
+                    <svg class="icon icon-minus ">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#minus"></use>
+                    </svg>
+                    <svg class="icon icon-minus minus-2">
+                      <use xlink:href="assets/symbol/svg/sprite.symbol.svg#minus"></use>
+                    </svg></span></div>
+              </div>
+              <div class="accordion__wrap faq-wrap">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, sunt tenetur dolores totam officiis temporibus cupiditate quasi nulla quae consequuntur blanditiis nihil exercitationem quibusdam odit pariatur unde quos in quaerat.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-3-xl col-12-md first-row">
+              <div class="footer__logo"><a class="d-flex align-center text-font-secondary" href="#">Logo</a></div>
+              <div class="footer__social">
+                <div class="footer__social-title text-font-secondary">Follow Us</div>
+                <ul class="d-flex">
+                  <li><a class="d-flex justify-center align-center" href="#">
+                      <svg class="icon icon-facebook icon-fill">
+                        <use xlink:href="assets/symbol/svg/sprite.symbol.svg#facebook"></use>
+                      </svg></a></li>
+                  <li><a class="d-flex justify-center align-center" href="#">
+                      <svg class="icon icon-twitter-x icon-fill">
+                        <use xlink:href="assets/symbol/svg/sprite.symbol.svg#twitter-x"></use>
+                      </svg></a></li>
+                  <li><a class="d-flex justify-center align-center" href="#">
+                      <svg class="icon icon-instagram icon-fill">
+                        <use xlink:href="assets/symbol/svg/sprite.symbol.svg#instagram"></use>
+                      </svg></a></li>
+                  <li><a class="d-flex justify-center align-center" href="#">
+                      <svg class="icon icon-youtube icon-fill">
+                        <use xlink:href="assets/symbol/svg/sprite.symbol.svg#youtube"></use>
+                      </svg></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-9-xl col-12-md">
+              <div class="row">
+                <div class="col-3-xl col-6-md col-12-sm mb-20-md">
+                  <div class="footer__nav">
+                    <div class="footer__nav-title text-font-secondary text-upper text-bold">Menu title</div>
+                    <nav>
+                      <ul>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="col-3-xl col-6-md col-12-sm mb-20-md">
+                  <div class="footer__nav">
+                    <div class="footer__nav-title text-font-secondary text-upper text-bold">Menu title</div>
+                    <nav>
+                      <ul>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="col-3-xl col-6-md col-12-sm mb-20-md">
+                  <div class="footer__nav">
+                    <div class="footer__nav-title text-font-secondary text-upper text-bold">Menu title</div>
+                    <nav>
+                      <ul>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="col-3-xl col-6-md col-12-sm mb-20-md">
+                  <div class="footer__nav">
+                    <div class="footer__nav-title text-font-secondary text-upper text-bold">Menu title</div>
+                    <nav>
+                      <ul>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                        <li><a href="">Lorem ipsum</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p>©2025 | All right reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu-sub" id="drop-1">
+      <div class="container">
+        <div class="menu-sub__wrap">
+          <div class="row">
+            <div class="col-9-xl">
+              <div class="row">
+                <div class="col-4-xl">
+                  <div class="title">Online casinos</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">Popular filters</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">Casinos by payment method</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-3-xl d-flex justify-center align-center">
+              <p>Img baner</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu-sub" id="drop-2">
+      <div class="container">
+        <div class="menu-sub__wrap">
+          <div class="row">
+            <div class="col-9-xl">
+              <div class="row">
+                <div class="col-4-xl">
+                  <div class="title">Online games</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">Popular games</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">Free games</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-3-xl d-flex justify-center align-center">
+              <p>Img baner</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu-sub" id="drop-2">
+      <div class="container">
+        <div class="menu-sub__wrap">
+          <div class="row">
+            <div class="col-9-xl">
+              <div class="row">
+                <div class="col-4-xl">
+                  <div class="title">Online games</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">Popular games</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">Free games</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-3-xl d-flex justify-center align-center">
+              <p>Img baner</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu-sub" id="drop-3">
+      <div class="container">
+        <div class="menu-sub__wrap">
+          <div class="row">
+            <div class="col-9-xl">
+              <div class="row">
+                <div class="col-4-xl">
+                  <div class="title">Bonys type</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">All bonuses</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-4-xl">
+                  <div class="title">No deposit bonuses</div>
+                  <nav>
+                    <ul>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                      <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-3-xl d-flex justify-center align-center">
+              <p>Img baner</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="login" style="display: none">
+      <div class="popup-title">Login</div>
+      <form>
+        <div class="form-row">
+          <input type="text" placeholder="Login">
+        </div>
+        <div class="form-row">
+          <input type="password" placeholder="Password">
+        </div>
+        <div class="form-login d-flex justify-center">
+          <button class="btn btn-primary" type="button">Login</button>
+        </div>
+      </form>
+    </div>
+    <div class="popup" id="sign" style="display: none">
+      <div class="popup-title">Sign Up</div>
+      <form>
+        <div class="form-row">
+          <input type="text" placeholder="Login">
+        </div>
+        <div class="form-row">
+          <input type="email" placeholder="Email">
+        </div>
+        <div class="form-row">
+          <input type="password" placeholder="Password">
+        </div>
+        <div class="form-row">
+          <input type="password" placeholder="Confirm password">
+        </div>
+        <div class="form-login d-flex justify-center">
+          <button class="btn btn-primary" type="button">Sign up</button>
+        </div>
+      </form>
+    </div>
+    <script src="assets/js/libs/fancybox.umd.js"></script>
+    <script src="assets/js/libs/purecounter.js"></script>
+    <script src="assets/js/libs/swiper-bundle.min.js"></script>
+    <script src="assets/js/libs/nouislider.min.js"></script>
+    <script src="assets/js/json/countries_flags_local.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
