@@ -27,6 +27,15 @@ mobFilter.forEach(el => {
   });
 });
 
+const mobFilterClose = document.querySelectorAll('.btn-close');
+
+mobFilterClose.forEach(el => {
+  el.addEventListener('click', function () {
+    document.body.classList.remove('lock');
+    document.querySelector('.csn-filter').classList.remove('active');
+  });
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   const popup = document.querySelectorAll('.popup-loop');
 
