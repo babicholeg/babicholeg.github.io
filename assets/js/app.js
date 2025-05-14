@@ -508,6 +508,7 @@ if (sliders) {
       countMob = el.dataset.countMob,
       prev = el.dataset.prev,
       next = el.dataset.next,
+      pug = el.dataset.pug,
       str = el.dataset.loop === 'true';
     new Swiper(el, {
       speed: 800,
@@ -521,6 +522,10 @@ if (sliders) {
       navigation: {
         nextEl: "#" + next,
         prevEl: "#" + prev,
+      },
+      pagination: {
+        el: "." + pug ,
+        clickable: true,
       },
       breakpoints: {
         768: {
@@ -555,17 +560,6 @@ document.querySelectorAll('.slider-tabs').forEach(tabs => {
   });
 });
 
-const languages = [
-  {"name": "Aruba", "code": "AW", "flag": "assets/images/src/flags/aw.svg"},
-  {"name": "Afghanistan", "code": "AF", "flag": "assets/images/src/flags/af.svg"},
-  {"name": "Angola", "code": "AO", "flag": "assets/images/src/flags/ao.svg"},
-  {"name": "Anguilla", "code": "AI", "flag": "assets/images/src/flags/ai.svg"},
-  {"name": "Åland Islands", "code": "AX", "flag": "assets/images/src/flags/ax.svg"},
-  {"name": "Albania", "code": "AL", "flag": "assets/images/src/flags/al.svg"},
-  {"name": "Andorra", "code": "AD", "flag": "assets/images/src/flags/ad.svg"},
-  {"name": "United Arab Emirates", "code": "AE", "flag": "assets/images/src/flags/ae.svg"},
-  // ... (остальные страны)
-];
 
 const list = document.getElementById("languageList");
 const input = document.getElementById("languageSearch");
